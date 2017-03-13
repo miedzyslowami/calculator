@@ -1,0 +1,22 @@
+#screen {
+    height: 50px;
+    width: 50px;
+    border: 1px solid black;
+}
+
+table {
+    border: 1px solid black;
+    padding: 15px;
+}
+
+td {
+    text-align: center;
+    border: 1px solid black;
+    height: 50px;
+    width: 50px;
+}
+
+#screen {
+    text-align: right;
+    padding: 0 5px;
+}
