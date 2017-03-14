@@ -1,19 +1,42 @@
 #screen {
-    height: 50px;
+    height: 100px;
     width: 50px;
-    border: 1px solid black;
+    background: white;
+    font-size: 25px;
 }
 
 table {
-    border: 1px solid black;
     padding: 15px;
+    border-radius: 5px;
+    background: #f2f6f8;
+    /* Old browsers */
+    background: -moz-linear-gradient(left, #f2f6f8 0%, #d8e1e7 4%, #d8e1e7 98%, #e0eff9 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, #f2f6f8 0%, #d8e1e7 4%, #d8e1e7 98%, #e0eff9 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, #f2f6f8 0%, #d8e1e7 4%, #d8e1e7 98%, #e0eff9 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2f6f8', endColorstr='#e0eff9', GradientType=1);
+    font-size: 20px;
+    font-family: Arial;
 }
 
 td {
     text-align: center;
-    border: 1px solid black;
-    height: 50px;
-    width: 50px;
+    height: 80px;
+    width: 80px;
+    border-radius: 5px;
+    background-color: rgb(133, 230, 233);
+    color: black;
+    background: #f2f6f8;
+}
+
+td:hover:not(#screen) {
+    text-align: center;
+    font-family: Arial;
+    font-size: 30px;
+    font-weight: bold;
+    background: white;
 }
 
 #screen {
